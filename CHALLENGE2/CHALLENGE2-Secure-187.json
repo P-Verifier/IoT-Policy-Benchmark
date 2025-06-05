@@ -14,8 +14,12 @@
                 "iot:Subscribe"
             ],
             "Resource": [
+<<<<<<< HEAD
                 "arn:aws:iot:us-east-1:1234567890:topicfilter/user/${iot:Connection.Thing.ThingName}*",
                 "arn:aws:iot:us-east-1:1234567890:topicfilter/device/device1*"
+=======
+                "arn:aws:iot:us-east-1:1234567890:topicfilter/user/${iot:Connection.Thing.ThingName}*"
+>>>>>>> 84cf5304adef355911c62b28d6ebd0bb32d19b7e
             ]
         },
         {

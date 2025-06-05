@@ -25,7 +25,7 @@
                 "iot:Publish"
             ],
             "Resource": [
-                "arn:aws:iot:us-east-1:123456789012:topic/devices*"
+                "arn:aws:iot:us-east-1:123456789012:topic/devices/deivce1*"
             ]
         },
         {

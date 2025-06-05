@@ -5,7 +5,7 @@
             "Effect": "Allow",
             "Action": "iot:Connect",
             "Resource": [
-                "arn:aws:iot:us-east-1:1234567890:client/user1"
+                "arn:aws:iot:us-east-1:1234567890:client/${iot:Connection.Thing.ThingName}"
             ]
         },
         {
@@ -14,7 +14,7 @@
                 "iot:Subscribe"
             ],
             "Resource": [
-                "arn:aws:iot:us-east-1:1234567890:topicfilter/device/device1*"
+                "arn:aws:iot:us-east-1:1234567890:topicfilter/user/${iot:Connection.Thing.ThingName}*"
             ]
         },
         {
